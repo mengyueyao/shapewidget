@@ -1,7 +1,7 @@
 
 apply plugin: 'com.android.application'
 apply plugin: 'com.github.dcendents.android-maven'
-group='github.com.mengyueyao'
+group='com.github.mengyueyao'
 
 android {
     compileSdkVersion 26
