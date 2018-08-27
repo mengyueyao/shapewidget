@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextShape">
+
+        <attr name="roundRadius" format="dimension"></attr>
+
+        <attr name="strokeColor" format="color"></attr>
+
+        <attr name="solidColor" format="color"></attr>
+
+        <attr name="strokeWidth" format="dimension"></attr>
+
+        <attr name="shape" format="enum">
+
+            <enum name="rectangle" value="0"></enum>
+
+            <enum name="oval" value="1"></enum>
+
+        </attr>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="LeanTextView">
+        <attr name="degree" format="dimension" />
+    </declare-styleable>
+
+
+
+</resources>
