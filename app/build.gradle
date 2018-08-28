@@ -1,10 +1,9 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "shape.meng.com.shapedemo"
+        applicationId "shape.meng.com.shapewidget"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
