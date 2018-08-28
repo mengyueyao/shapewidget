@@ -1,7 +1,4 @@
-
-apply plugin: 'com.android.application'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.mengyueyao'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
@@ -9,7 +6,6 @@ android {
 
 
     defaultConfig {
-        applicationId "shape.meng.com.shape"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
@@ -32,6 +28,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'
 }
