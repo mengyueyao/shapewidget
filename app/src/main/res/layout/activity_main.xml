@@ -1,18 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="shape.meng.com.shapewidget.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <shape.meng.com.shape.LinerLayoutShape
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        app:roundRadius="15dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#ff0000"
+        android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <shape.meng.com.shape.TextShape
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:roundRadius="15dp"
+        app:solidColor="#a3e78a"
+        app:strokeWidth="1dp"
+        android:text="TextView+shape"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        app:strokeColor="#ff0000"/>
+
+
+        <shape.meng.com.shape.EdiTextShape
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:roundRadius="15dp"
+            app:solidColor="#a3e78a"
+            app:strokeWidth="1dp"
+            android:text="EditextView+shape"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            app:strokeColor="#ff0000"/>
+
+
+
+
+        <shape.meng.com.shape.TextShape
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:roundRadius="15dp"
+            app:solidColor="#a3e78a"
+            app:strokeWidth="1dp"
+            android:text="用TextShape实现画一个圆"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            app:shape="oval"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            app:strokeColor="#ff0000"/>
+
+
+    </shape.meng.com.shape.LinerLayoutShape>
+
+</LinearLayout>
