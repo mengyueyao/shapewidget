@@ -15,9 +15,6 @@
         android:gravity="center"
         android:paddingBottom="15dp"
         android:paddingTop="15dp"
-        app:roundRadius="15dp"
-        app:strokeWidth="1dp"
-        app:strokeColor="#ff0000"
         android:orientation="vertical">
 
     <shape.meng.com.shape.TextShape
@@ -26,7 +23,7 @@
         app:roundRadius="15dp"
         app:solidColor="#a3e78a"
         app:strokeWidth="1dp"
-        android:text="TextView+shape"
+        android:text="TextShape"
         android:textColor="#ffffff"
         android:gravity="center"
         android:layout_marginLeft="25dp"
@@ -40,7 +37,7 @@
             app:roundRadius="15dp"
             app:solidColor="#a3e78a"
             app:strokeWidth="1dp"
-            android:text="EditextView+shape"
+            android:text="EdiTextShape"
             android:layout_marginTop="15dp"
             android:textColor="#ffffff"
             android:gravity="center"

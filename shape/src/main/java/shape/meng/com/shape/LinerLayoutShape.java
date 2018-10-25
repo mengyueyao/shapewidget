@@ -21,12 +21,12 @@ public class LinerLayoutShape extends LinearLayout {
     }
     public LinerLayoutShape(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.TextShape);
-        int strokeWidth = (int)typedArray.getDimension(R.styleable.TextShape_strokeWidth,0f);  //描边宽度
-        int roundRadius = (int)typedArray.getDimension(R.styleable.TextShape_roundRadius,0f); //  圆角半径
-        int strokeColor = typedArray.getColor(R.styleable.TextShape_strokeColor, Color.parseColor("#00000000"));//边框颜色
-        int solidColor = typedArray.getColor(R.styleable.TextShape_solidColor, Color.parseColor("#00000000"));//内部填充颜色
-        int shape = typedArray.getInt(R.styleable.TextShape_shape,0);  //0：方形  1：圆形   默认是0    如果需要设置成圆形空间的宽高必须相等  否则为椭圆
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.LinerLayoutShape);
+        int strokeWidth = (int)typedArray.getDimension(R.styleable.LinerLayoutShape_strokeWidth,0f);  //描边宽度
+        int roundRadius = (int)typedArray.getDimension(R.styleable.LinerLayoutShape_roundRadius,0f); //  圆角半径
+        int strokeColor = typedArray.getColor(R.styleable.LinerLayoutShape_strokeColor, Color.parseColor("#00000000"));//边框颜色
+        int solidColor = typedArray.getColor(R.styleable.LinerLayoutShape_solidColor, Color.parseColor("#00000000"));//内部填充颜色
+        int shape = typedArray.getInt(R.styleable.LinerLayoutShape_shape,0);  //0：方形  1：圆形   默认是0    如果需要设置成圆形空间的宽高必须相等  否则为椭圆
         GradientDrawable gd = new GradientDrawable();//创建drawable
         gd.setShape(shape);
         gd.setColor(solidColor);
