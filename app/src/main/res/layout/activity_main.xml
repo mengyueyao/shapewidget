@@ -60,12 +60,10 @@
             android:textColor="#ffffff"
             android:gravity="center"
             android:layout_marginTop="20dp"
-            app:shape="oval"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-
+            app:shape="oval"
             app:strokeColor="#ff0000"/>
-
 
     </shape.meng.com.shape.LinerLayoutShape>
 
