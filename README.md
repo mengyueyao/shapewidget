@@ -15,7 +15,7 @@ allprojects{
  
  用法  
  
-https://github.com/mengyueyao/shapewidget/raw/master/pic/root.png   
+https://raw.githubusercontent.com/mengyueyao/shapewidget/master/pic/root.png     
 
 TextShape  
 
