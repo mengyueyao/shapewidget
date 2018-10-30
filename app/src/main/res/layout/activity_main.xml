@@ -46,8 +46,6 @@
             app:strokeColor="#ff0000"/>
 
 
-
-
         <shape.meng.com.shape.TextShape
             android:layout_width="100dp"
             android:layout_height="100dp"
