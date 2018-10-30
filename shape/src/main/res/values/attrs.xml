@@ -10,7 +10,7 @@
 
     <attr name="strokeWidth" format="dimension"></attr>
 
-    <attr name="shape" format="enum">
+    <attr name="shape">
 
         <enum name="rectangle" value="0"></enum>
 
