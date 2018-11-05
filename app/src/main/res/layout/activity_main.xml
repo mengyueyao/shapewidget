@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
     <shape.meng.com.shape.LinerLayoutShape
         android:layout_width="match_parent"
@@ -30,13 +39,19 @@
         android:layout_marginRight="25dp"
         app:strokeColor="#ff0000"/>
 
+        <shape.meng.com.shape.LinerLayoutShape
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            app:buttomleftRadius="10dp"
+            app:solidColor="#a3e78a"
+            android:layout_height="45dp"></shape.meng.com.shape.LinerLayoutShape>
 
         <shape.meng.com.shape.EdiTextShape
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            app:roundRadius="15dp"
             app:solidColor="#a3e78a"
             app:strokeWidth="1dp"
+            app:roundRadius="10dp"
             android:text="EdiTextShape"
             android:layout_marginTop="15dp"
             android:textColor="#ffffff"
@@ -63,6 +78,55 @@
             app:shape="oval"
             app:strokeColor="#ff0000"/>
 
+
+        <shape.meng.com.shape.TextShape
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:topleftRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:text="左上"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            app:solidColor="#a3e78a"/>
+
+        <shape.meng.com.shape.TextShape
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:toprightRadius="10dp"
+            android:text="右上"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            app:solidColor="#a3e78a"/>
+
+        <shape.meng.com.shape.TextShape
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:buttomleftRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:text="左下"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            app:solidColor="#a3e78a"/>
+
+        <shape.meng.com.shape.TextShape
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:buttomrightRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:text="右下"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            app:solidColor="#a3e78a"/>
+
     </shape.meng.com.shape.LinerLayoutShape>
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
 
 </LinearLayout>

@@ -10,6 +10,14 @@
 
     <attr name="strokeWidth" format="dimension"></attr>
 
+    <attr name="topleftRadius" format="dimension"></attr>
+
+    <attr name="toprightRadius" format="dimension"></attr>
+
+    <attr name="buttomleftRadius" format="dimension"></attr>
+
+    <attr name="buttomrightRadius" format="dimension"></attr>
+
     <attr name="shape">
 
         <enum name="rectangle" value="0"></enum>
@@ -26,6 +34,10 @@
         <attr name="solidColor"></attr>
         <attr name="strokeWidth"></attr>
         <attr name="shape"></attr>
+        <attr name="topleftRadius"></attr>
+        <attr name="toprightRadius"></attr>
+        <attr name="buttomleftRadius"></attr>
+        <attr name="buttomrightRadius"></attr>
 
     </declare-styleable>
 
@@ -41,6 +53,10 @@
         <attr name="solidColor"></attr>
         <attr name="strokeWidth"></attr>
         <attr name="shape"></attr>
+        <attr name="topleftRadius"></attr>
+        <attr name="toprightRadius"></attr>
+        <attr name="buttomleftRadius"></attr>
+        <attr name="buttomrightRadius"></attr>
 
     </declare-styleable>
 
@@ -51,6 +67,10 @@
         <attr name="solidColor"></attr>
         <attr name="strokeWidth"></attr>
         <attr name="shape"></attr>
+        <attr name="topleftRadius"></attr>
+        <attr name="toprightRadius"></attr>
+        <attr name="buttomleftRadius"></attr>
+        <attr name="buttomrightRadius"></attr>
 
     </declare-styleable>
 </resources>
