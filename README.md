@@ -31,6 +31,7 @@ EditextShape
 
 ![EditextShape用法](pic/EdiTextShape.png)  
 
-LinearLayoutShape的用法一样，这里不写了
+LinearLayoutShape的用法一样，这里不写了  
+最后请大家留下你们的星星，谢谢
 
 
