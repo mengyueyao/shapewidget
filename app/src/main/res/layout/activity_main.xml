@@ -16,6 +16,7 @@
             android:orientation="vertical">
 
     <shape.meng.com.shape.LinerLayoutShape
+        android:id="@+id/ll_sh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -27,6 +28,7 @@
         android:orientation="vertical">
 
     <shape.meng.com.shape.TextShape
+        android:id="@+id/tv_sh"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         app:roundRadius="15dp"
@@ -47,6 +49,7 @@
             android:layout_height="45dp"></shape.meng.com.shape.LinerLayoutShape>
 
         <shape.meng.com.shape.EdiTextShape
+            android:id="@+id/edt_sh"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             app:solidColor="#a3e78a"

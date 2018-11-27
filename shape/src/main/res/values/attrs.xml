@@ -18,11 +18,51 @@
 
     <attr name="buttomrightRadius" format="dimension"></attr>
 
+    <attr name="startColor" format="color"></attr>
+
+    <attr name="centerColor" format="color"></attr>
+
+    <attr name="endColor" format="color"></attr>
+
+    <attr name="type">
+
+        <enum name="gradient" value="1" ></enum>
+
+    </attr>
+
     <attr name="shape">
 
         <enum name="rectangle" value="0"></enum>
 
         <enum name="oval" value="1"></enum>
+
+    </attr>
+
+    <attr name="angle">
+
+        <enum name="a" value="0"></enum>
+
+        <enum name="b" value="45"></enum>
+
+        <enum name="c" value="90"></enum>
+
+        <enum name="e" value="180"></enum>
+
+        <enum name="f" value="225"></enum>
+
+        <enum name="g" value="270"></enum>
+
+        <enum name="h" value="315"></enum>
+
+    </attr>
+
+    <attr name="gradientType">
+
+        <enum name="linear" value="0"></enum>
+
+        <enum name="radial" value="1"></enum>
+
+        <enum name="sweep" value="2"></enum>
 
     </attr>
 
