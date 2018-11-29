@@ -40,6 +40,11 @@ public class EdiTextShape extends AppCompatEditText {
         setsolidColor(solidColor);
     }
 
+    public void setStrokeColor(int color){
+
+        setstrokeColor(color);
+    }
+
     public EdiTextShape(Context context) {
         super(context);
 
@@ -87,4 +92,8 @@ public class EdiTextShape extends AppCompatEditText {
         gd.setColor(color);
     }
 
+    private void setstrokeColor(int color){
+
+        gd.setStroke(strokeWidth,color);
+    }
 }

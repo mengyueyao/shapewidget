@@ -40,6 +40,11 @@ public class TextShape extends AppCompatTextView {
         setsolidColor(solidColor);
     }
 
+    public void setStrokeColor(int color){
+
+        setstrokeColor(color);
+    }
+
     public TextShape(Context context) {
         super(context);
 
@@ -85,5 +90,10 @@ public class TextShape extends AppCompatTextView {
     private void setsolidColor(int color){
 
         gd.setColor(color);
+    }
+
+    private void setstrokeColor(int color){
+
+        gd.setStroke(strokeWidth,color);
     }
 }

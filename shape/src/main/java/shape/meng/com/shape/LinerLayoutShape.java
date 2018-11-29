@@ -40,6 +40,11 @@ public class LinerLayoutShape extends LinearLayout {
         setsolidColor(solidColor);
     }
 
+    public void setStrokeColor(int color){
+
+        setstrokeColor(color);
+    }
+
     public LinerLayoutShape(Context context) {
         super(context);
 
@@ -84,5 +89,10 @@ public class LinerLayoutShape extends LinearLayout {
     private void setsolidColor(int color){
 
         gd.setColor(color);
+    }
+
+    private void setstrokeColor(int color){
+
+        gd.setStroke(strokeWidth,color);
     }
 }

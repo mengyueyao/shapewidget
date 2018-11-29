@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         tv_sh.setSolidColor(getResources().getColor(R.color.colorAccent));
 
+        edt_sh.setStrokeColor(getResources().getColor(R.color.colorAccent));
+
 
 
     }
