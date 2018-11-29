@@ -61,7 +61,7 @@
             android:gravity="center"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            app:strokeColor="#ff0000"/>
+            app:strokeColor="#bfacea"/>
 
 
         <shape.meng.com.shape.TextShape
