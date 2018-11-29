@@ -8,7 +8,7 @@ allprojects{
 	}     
   
   然后引入dependencies{  
-	        implementation 'com.github.mengyueyao:shapewidget:1.2.3'  
+	        implementation 'com.github.mengyueyao:shapewidget:1.2.4'  
 	}  
   
  目前只有三个简单 TextShape   EdiTextShape 和 LinerLayoutShape 用法也简单，只是基础的，目的在于减少创建drawable的shape文件  
