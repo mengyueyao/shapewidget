@@ -113,4 +113,18 @@
         <attr name="buttomrightRadius"></attr>
 
     </declare-styleable>
+
+    <declare-styleable name="RelativeLayoutShape">
+
+        <attr name="roundRadius"></attr>
+        <attr name="strokeColor"></attr>
+        <attr name="solidColor"></attr>
+        <attr name="strokeWidth"></attr>
+        <attr name="shape"></attr>
+        <attr name="topleftRadius"></attr>
+        <attr name="toprightRadius"></attr>
+        <attr name="buttomleftRadius"></attr>
+        <attr name="buttomrightRadius"></attr>
+
+    </declare-styleable>
 </resources>
