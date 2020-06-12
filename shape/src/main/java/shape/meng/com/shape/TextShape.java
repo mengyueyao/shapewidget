@@ -86,6 +86,33 @@ public class TextShape extends AppCompatTextView {
 
 
     }
+    public void setTopleftRadius(int radius) {
+
+        float[] radiu = {radius,radius,toprightRadius,toprightRadius,buttomrightRadius,buttomrightRadius,buttomleftRadius,buttomleftRadius};
+
+        gd.setCornerRadii(radiu);
+    }
+
+    public void setToprightRadius(int radius){
+
+        float[] radiu = {topleftRadius,topleftRadius,radius,radius,buttomrightRadius,buttomrightRadius,buttomleftRadius,buttomleftRadius};
+
+        gd.setCornerRadii(radiu);
+    }
+
+    public void setButtomleftRadius(int radius) {
+
+        float[] radiu = {topleftRadius,topleftRadius,toprightRadius,toprightRadius,buttomrightRadius,buttomrightRadius,radius,radius};
+
+        gd.setCornerRadii(radiu);
+    }
+
+    public void setButtomrightRadius(int radius){
+
+        float[] radiu = {topleftRadius,topleftRadius,toprightRadius,toprightRadius,radius,radius,buttomleftRadius,buttomleftRadius};
+
+        gd.setCornerRadii(radiu);
+    }
 
     private void setsolidColor(int color){
 

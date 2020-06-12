@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
         edt_sh.setStrokeColor(getResources().getColor(R.color.colorAccent));
 
+        edt_sh.setTopleftRadius(15);
+
 
 
     }
