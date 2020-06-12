@@ -86,30 +86,9 @@ public class LinerLayoutShape extends LinearLayout {
 
     }
 
-    public void setTopleftRadius(int radius) {
+    public void setRadius(int topleftRadius,int toprightRadius,int buttomleftRadius,int buttomrightRadius) {
 
-        float[] radiu = {radius,radius,toprightRadius,toprightRadius,buttomrightRadius,buttomrightRadius,buttomleftRadius,buttomleftRadius};
-
-        gd.setCornerRadii(radiu);
-    }
-
-    public void setToprightRadius(int radius){
-
-        float[] radiu = {topleftRadius,topleftRadius,radius,radius,buttomrightRadius,buttomrightRadius,buttomleftRadius,buttomleftRadius};
-
-        gd.setCornerRadii(radiu);
-    }
-
-    public void setButtomleftRadius(int radius) {
-
-        float[] radiu = {topleftRadius,topleftRadius,toprightRadius,toprightRadius,buttomrightRadius,buttomrightRadius,radius,radius};
-
-        gd.setCornerRadii(radiu);
-    }
-
-    public void setButtomrightRadius(int radius){
-
-        float[] radiu = {topleftRadius,topleftRadius,toprightRadius,toprightRadius,radius,radius,buttomleftRadius,buttomleftRadius};
+        float[] radiu = {topleftRadius,topleftRadius,toprightRadius,toprightRadius,buttomrightRadius,buttomrightRadius,buttomleftRadius,buttomleftRadius};
 
         gd.setCornerRadii(radiu);
     }

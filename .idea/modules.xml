@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shape/shape.iml" filepath="$PROJECT_DIR$/shape/shape.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shapewidget.iml" filepath="$PROJECT_DIR$/shapewidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="shapewidget/app" />
+      <module fileurl="file://$PROJECT_DIR$/shape/shape.iml" filepath="$PROJECT_DIR$/shape/shape.iml" group="shapewidget/shape" />
+      <module fileurl="file://$PROJECT_DIR$/shapewidget.iml" filepath="$PROJECT_DIR$/shapewidget.iml" group="shapewidget" />
     </modules>
   </component>
 </project>
