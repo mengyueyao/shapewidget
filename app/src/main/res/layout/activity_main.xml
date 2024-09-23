@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="none">
@@ -26,6 +26,17 @@
         android:paddingBottom="15dp"
         android:paddingTop="15dp"
         android:orientation="vertical">
+
+        <shape.meng.com.shape.RelativeLayoutShape
+            android:id="@+id/rl_shape"
+            android:layout_width="match_parent"
+            app:strokeColor="#ff0000"
+            app:strokeWidth="1dp"
+            android:layout_height="40dp">
+
+
+
+        </shape.meng.com.shape.RelativeLayoutShape>
 
     <shape.meng.com.shape.TextShape
         android:id="@+id/tv_sh"
@@ -55,7 +66,25 @@
             app:solidColor="#a3e78a"
             app:strokeWidth="1dp"
             app:roundRadius="10dp"
-            android:text="EdiTextShape"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            app:strokeColor="#bfacea"/>
+
+
+        <shape.meng.com.shape.EdiTextShape
+            android:id="@+id/edt_1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:strokeWidth="1dp"
+            app:roundRadius="10dp"
+            app:startColor="#FF0000"
+            app:endColor="#1582D6"
+            app:centerColor="#23E11C"
+            app:angle="RT_LB"
+            app:solidColor="@color/colorAccent"
             android:layout_marginTop="15dp"
             android:textColor="#ffffff"
             android:gravity="center"
@@ -122,13 +151,25 @@
             android:gravity="center"
             app:solidColor="#a3e78a"/>
 
+
+        <shape.meng.com.shape.TextShape
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:buttomleftRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:text="渐变"
+            android:gravity="center"
+            app:startColor="@color/colorAccent"
+            app:endColor="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"/>
+
     </shape.meng.com.shape.LinerLayoutShape>
 
 
 
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
 </LinearLayout>

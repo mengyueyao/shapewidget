@@ -24,12 +24,6 @@
 
     <attr name="endColor" format="color"></attr>
 
-    <attr name="type">
-
-        <enum name="gradient" value="1" ></enum>
-
-    </attr>
-
     <attr name="shape">
 
         <enum name="rectangle" value="0"></enum>
@@ -40,19 +34,21 @@
 
     <attr name="angle">
 
-        <enum name="a" value="0"></enum>
+        <enum name="LEFT_RIGHT" value="0"></enum>
 
-        <enum name="b" value="45"></enum>
+        <enum name="TOP_BOTTOM" value="1"></enum>
 
-        <enum name="c" value="90"></enum>
+        <enum name="BOTTOM_TOP" value="2"></enum>
 
-        <enum name="e" value="180"></enum>
+        <enum name="RIGHT_LEFT" value="3"></enum>
 
-        <enum name="f" value="225"></enum>
+        <enum name="LT_RB" value="4"></enum>
 
-        <enum name="g" value="270"></enum>
+        <enum name="RT_LB" value="5"></enum>
 
-        <enum name="h" value="315"></enum>
+        <enum name="LB_RT" value="6"></enum>
+
+        <enum name="RB_LT" value="7"></enum>
 
     </attr>
 
@@ -78,6 +74,11 @@
         <attr name="toprightRadius"></attr>
         <attr name="buttomleftRadius"></attr>
         <attr name="buttomrightRadius"></attr>
+        <attr name="startColor"></attr>
+        <attr name="endColor"></attr>
+        <attr name="centerColor"></attr>
+        <attr name="angle"></attr>
+        <attr name="gradientType"></attr>
 
     </declare-styleable>
 
@@ -97,6 +98,11 @@
         <attr name="toprightRadius"></attr>
         <attr name="buttomleftRadius"></attr>
         <attr name="buttomrightRadius"></attr>
+        <attr name="startColor"></attr>
+        <attr name="endColor"></attr>
+        <attr name="centerColor"></attr>
+        <attr name="angle"></attr>
+        <attr name="gradientType"></attr>
 
     </declare-styleable>
 
@@ -111,6 +117,11 @@
         <attr name="toprightRadius"></attr>
         <attr name="buttomleftRadius"></attr>
         <attr name="buttomrightRadius"></attr>
+        <attr name="startColor"></attr>
+        <attr name="endColor"></attr>
+        <attr name="centerColor"></attr>
+        <attr name="angle"></attr>
+        <attr name="gradientType"></attr>
 
     </declare-styleable>
 
@@ -125,6 +136,11 @@
         <attr name="toprightRadius"></attr>
         <attr name="buttomleftRadius"></attr>
         <attr name="buttomrightRadius"></attr>
+        <attr name="startColor"></attr>
+        <attr name="endColor"></attr>
+        <attr name="centerColor"></attr>
+        <attr name="angle"></attr>
+        <attr name="gradientType"></attr>
 
     </declare-styleable>
 </resources>

@@ -1,11 +1,13 @@
 package shape.meng.com.shapewidget;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import shape.meng.com.shape.EdiTextShape;
 import shape.meng.com.shape.LinerLayoutShape;
+import shape.meng.com.shape.RelativeLayoutShape;
 import shape.meng.com.shape.TextShape;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private LinerLayoutShape ll_sh;
 
     private EdiTextShape edt_sh;
+
+    private RelativeLayoutShape rl_shape;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         edt_sh.setStrokeColor(getResources().getColor(R.color.colorAccent));
 
-        edt_sh.setTopleftRadius(15);
+        rl_shape = findViewById(R.id.rl_shape);
+
+        rl_shape.setRadius(15,15,0,15);
 
 
 

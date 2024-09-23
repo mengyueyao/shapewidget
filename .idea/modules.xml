@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="shapewidget/app" />
-      <module fileurl="file://$PROJECT_DIR$/shape/shape.iml" filepath="$PROJECT_DIR$/shape/shape.iml" group="shapewidget/shape" />
-      <module fileurl="file://$PROJECT_DIR$/shapewidget.iml" filepath="$PROJECT_DIR$/shapewidget.iml" group="shapewidget" />
+      <module fileurl="file://$PROJECT_DIR$/shapewidget.iml" filepath="$PROJECT_DIR$/shapewidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/shapewidget.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/shapewidget.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/shapewidget.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/shapewidget.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/shapewidget.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/shapewidget.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/shapewidget.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/shapewidget.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.iml" filepath="$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shape/shapewidget.shape.unitTest.iml" />
     </modules>
   </component>
 </project>
