@@ -19,6 +19,9 @@ android {
     }
     lintOptions {
         abortOnError false
+        checkReleaseBuilds false
+        // 可选：配置 lint 输出位置
+        // textOutput "lint-results.txt"
     }
 
     // 确保有 release 变体，并且发布相关文件
