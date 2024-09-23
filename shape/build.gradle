@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish' // 确保添加了这个插件
-
 android {
     compileSdkVersion 33
     defaultConfig {
@@ -12,7 +11,6 @@ android {
 
     }
 
-
     buildTypes {
         release {
             minifyEnabled false
@@ -20,6 +18,19 @@ android {
         }
     }
 
+}
+// 在 afterEvaluate 中配置 publishing，确保 Android 项目构建完成后才执行
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.meng'
+                artifactId = 'shape'
+                version = '1.2.8'
+            }
+        }
+    }
 }
 
 dependencies {
