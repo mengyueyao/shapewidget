@@ -31,20 +31,23 @@ android {
             withJavadocJar()
         }
     }
-
 }
 // 在 afterEvaluate 中配置 publishing，确保 Android 项目构建完成后才执行
 afterEvaluate {
     publishing {
         publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.meng'
-                artifactId = 'shape'
+            // 创建一个名为 'release' 的 MavenPublication
+            create("release", MavenPublication) {
+                // 从 Android 的 `components` 中选择需要发布的组件
+                from(components.getByName("release"))
+
+                groupId = 'mengyueyao'
+                artifactId = 'shapewidget'
                 version = '1.2.8'
             }
         }
     }
+
 }
 
 dependencies {
