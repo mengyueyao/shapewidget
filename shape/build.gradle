@@ -18,6 +18,14 @@ android {
         }
     }
 
+    // 确保有 release 变体，并且发布相关文件
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
+
 }
 // 在 afterEvaluate 中配置 publishing，确保 Android 项目构建完成后才执行
 afterEvaluate {
