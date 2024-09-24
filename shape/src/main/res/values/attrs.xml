@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="roundRadius" format="dimension"/>
 
+    <attr name="strokeColor" format="color"/>
 
-    <attr name="roundRadius" format="dimension"></attr>
+    <attr name="solidColor" format="color"/>
 
-    <attr name="strokeColor" format="color"></attr>
+    <attr name="strokeWidth" format="dimension"/>
 
-    <attr name="solidColor" format="color"></attr>
+    <attr name="topleftRadius" format="dimension"/>
 
-    <attr name="strokeWidth" format="dimension"></attr>
+    <attr name="toprightRadius" format="dimension"/>
 
-    <attr name="topleftRadius" format="dimension"></attr>
+    <attr name="buttomleftRadius" format="dimension"/>
 
-    <attr name="toprightRadius" format="dimension"></attr>
+    <attr name="buttomrightRadius" format="dimension"/>
 
-    <attr name="buttomleftRadius" format="dimension"></attr>
+    <attr name="startColor" format="color"/>
 
-    <attr name="buttomrightRadius" format="dimension"></attr>
+    <attr name="centerColor" format="color"/>
 
-    <attr name="startColor" format="color"></attr>
-
-    <attr name="centerColor" format="color"></attr>
-
-    <attr name="endColor" format="color"></attr>
+    <attr name="endColor" format="color"/>
 
     <attr name="shape">
 
@@ -65,20 +63,20 @@
 
     <declare-styleable name="TextShape">
 
-        <attr name="roundRadius"></attr>
-        <attr name="strokeColor"></attr>
-        <attr name="solidColor"></attr>
-        <attr name="strokeWidth"></attr>
-        <attr name="shape"></attr>
-        <attr name="topleftRadius"></attr>
-        <attr name="toprightRadius"></attr>
-        <attr name="buttomleftRadius"></attr>
-        <attr name="buttomrightRadius"></attr>
-        <attr name="startColor"></attr>
-        <attr name="endColor"></attr>
-        <attr name="centerColor"></attr>
-        <attr name="angle"></attr>
-        <attr name="gradientType"></attr>
+        <attr name="roundRadius"/>
+        <attr name="strokeColor"/>
+        <attr name="solidColor"/>
+        <attr name="strokeWidth"/>
+        <attr name="shape"/>
+        <attr name="topleftRadius"/>
+        <attr name="toprightRadius"/>
+        <attr name="buttomleftRadius"/>
+        <attr name="buttomrightRadius"/>
+        <attr name="startColor"/>
+        <attr name="endColor"/>
+        <attr name="centerColor"/>
+        <attr name="angle"/>
+        <attr name="gradientType"/>
 
     </declare-styleable>
 
@@ -89,58 +87,58 @@
 
     <declare-styleable name="LinerLayoutShape">
 
-        <attr name="roundRadius"></attr>
-        <attr name="strokeColor"></attr>
-        <attr name="solidColor"></attr>
-        <attr name="strokeWidth"></attr>
-        <attr name="shape"></attr>
-        <attr name="topleftRadius"></attr>
-        <attr name="toprightRadius"></attr>
-        <attr name="buttomleftRadius"></attr>
-        <attr name="buttomrightRadius"></attr>
-        <attr name="startColor"></attr>
-        <attr name="endColor"></attr>
-        <attr name="centerColor"></attr>
-        <attr name="angle"></attr>
-        <attr name="gradientType"></attr>
+        <attr name="roundRadius"/>
+        <attr name="strokeColor"/>
+        <attr name="solidColor"/>
+        <attr name="strokeWidth"/>
+        <attr name="shape"/>
+        <attr name="topleftRadius"/>
+        <attr name="toprightRadius"/>
+        <attr name="buttomleftRadius"/>
+        <attr name="buttomrightRadius"/>
+        <attr name="startColor"/>
+        <attr name="endColor"/>
+        <attr name="centerColor"/>
+        <attr name="angle"/>
+        <attr name="gradientType"/>
 
     </declare-styleable>
 
     <declare-styleable name="EdiTextShape">
 
-        <attr name="roundRadius"></attr>
-        <attr name="strokeColor"></attr>
-        <attr name="solidColor"></attr>
-        <attr name="strokeWidth"></attr>
-        <attr name="shape"></attr>
-        <attr name="topleftRadius"></attr>
-        <attr name="toprightRadius"></attr>
-        <attr name="buttomleftRadius"></attr>
-        <attr name="buttomrightRadius"></attr>
-        <attr name="startColor"></attr>
-        <attr name="endColor"></attr>
-        <attr name="centerColor"></attr>
-        <attr name="angle"></attr>
-        <attr name="gradientType"></attr>
+        <attr name="roundRadius"/>
+        <attr name="strokeColor"/>
+        <attr name="solidColor"/>
+        <attr name="strokeWidth"/>
+        <attr name="shape"/>
+        <attr name="topleftRadius"/>
+        <attr name="toprightRadius"/>
+        <attr name="buttomleftRadius"/>
+        <attr name="buttomrightRadius"/>
+        <attr name="startColor"/>
+        <attr name="endColor"/>
+        <attr name="centerColor"/>
+        <attr name="angle"/>
+        <attr name="gradientType"/>
 
     </declare-styleable>
 
     <declare-styleable name="RelativeLayoutShape">
 
-        <attr name="roundRadius"></attr>
-        <attr name="strokeColor"></attr>
-        <attr name="solidColor"></attr>
-        <attr name="strokeWidth"></attr>
-        <attr name="shape"></attr>
-        <attr name="topleftRadius"></attr>
-        <attr name="toprightRadius"></attr>
-        <attr name="buttomleftRadius"></attr>
-        <attr name="buttomrightRadius"></attr>
-        <attr name="startColor"></attr>
-        <attr name="endColor"></attr>
-        <attr name="centerColor"></attr>
-        <attr name="angle"></attr>
-        <attr name="gradientType"></attr>
+        <attr name="roundRadius"/>
+        <attr name="strokeColor"/>
+        <attr name="solidColor"/>
+        <attr name="strokeWidth"/>
+        <attr name="shape"/>
+        <attr name="topleftRadius"/>
+        <attr name="toprightRadius"/>
+        <attr name="buttomleftRadius"/>
+        <attr name="buttomrightRadius"/>
+        <attr name="startColor"/>
+        <attr name="endColor"/>
+        <attr name="centerColor"/>
+        <attr name="angle"/>
+        <attr name="gradientType"/>
 
     </declare-styleable>
 </resources>
