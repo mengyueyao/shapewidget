@@ -222,4 +222,12 @@ public class TextShape extends AppCompatTextView {
 
         gd.setStroke(strokeWidth, color);
     }
+
+    private void setStrokeWidth(int width){
+        gd.setStroke(width, strokeColor);
+    }
+
+    private void setStrokeWidthColor(int width,int color){
+        gd.setStroke(width, color);
+    }
 }
