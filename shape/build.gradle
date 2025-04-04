@@ -2,6 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish' // 确保添加了这个插件
 android {
     compileSdk = 33
+    namespace = "shape.meng.com.shape"
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 33
